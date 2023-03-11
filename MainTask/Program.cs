@@ -44,7 +44,7 @@ string [] CreateNewArray (string [] array)
   return arrayResult;
 }
 
-// решение
+// решение и вывод на консоль
 int elements = ConsoleInputInt ("Введите количество элементов массива: ");
 if (elements <= 0 )
 {
