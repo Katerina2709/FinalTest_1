@@ -1,0 +1,15 @@
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\bin\Debug\net6.0\MainTask.exe
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\bin\Debug\net6.0\MainTask.deps.json
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\bin\Debug\net6.0\MainTask.runtimeconfig.json
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\bin\Debug\net6.0\MainTask.dll
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\bin\Debug\net6.0\MainTask.pdb
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.csproj.AssemblyReference.cache
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.AssemblyInfoInputs.cache
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.AssemblyInfo.cs
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.csproj.CoreCompileInputs.cache
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.dll
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\refint\MainTask.dll
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.pdb
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\MainTask.genruntimeconfig.cache
+C:\Users\Olga1\Desktop\FinalTest_1\MainTask\obj\Debug\net6.0\ref\MainTask.dll
