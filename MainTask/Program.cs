@@ -8,7 +8,7 @@
 // ["1234", "1567", "-2", "computer science"] -> ["-2"]
 // ['Russia", "Denmark", "Kazan"] -> []
 
-// ввод данных с консоли
+// ввод длины массива с консоли
 int ConsoleInputInt (string message)
 {
     Console.Write(message);
@@ -16,6 +16,7 @@ int ConsoleInputInt (string message)
     return amount;
 }
 
+// ввод строкового массива с консоли
 string [] ConsoleInputStrArr (int count)
 {
   string[] array = new string [count]; 
@@ -27,31 +28,31 @@ string [] ConsoleInputStrArr (int count)
   return array;
 }
 
+// основной метод - формирование итогового массива из элементов, длина которых не превышает 3 символов
+string [] CreateNewArray (string [] array)
+{
+  string[] arrayResult = new string [0];
+  for (int i = 0, k = 0; i < array.Length; i++)
+  {
+    if(array[i].Length <= 3)
+    {
+        Array.Resize (ref arrayResult, arrayResult.Length + 1);
+        arrayResult [k] = array[i];
+        k++;
+    }
+  }
+  return arrayResult;
+}
+
+// решение
 int elements = ConsoleInputInt ("Введите количество элементов массива: ");
 if (elements <= 0 )
 {
-    Console.Write("Ввели неверную длину массива");
+  Console.Write("Ввели неверную длину массива");
 }
 else
 {
-    string[] ArrayStart = ConsoleInputStrArr (elements);
-    string[] ArrayFinal = new string [0];
-    for (int i = 0, k = 0; i < ArrayStart.Length; i++)
-    {
-        if(ArrayStart[i].Length <= 3)
-        {
-           Array.Resize (ref ArrayFinal, ArrayFinal.Length + 1);
-           ArrayFinal [k] = ArrayStart[i];
-           k++;
-        }
-    }
-
-    Console.WriteLine ($"[\"{string.Join ("\", \"", ArrayStart)}\"] -> [\"{string.Join ("\", \"", ArrayFinal)}\"]");
+  string[] ArrayStart = ConsoleInputStrArr (elements);
+  string[] ArrayFinal = CreateNewArray (ArrayStart);
+  Console.WriteLine ($"[\"{string.Join ("\", \"", ArrayStart)}\"] -> [\"{string.Join ("\", \"", ArrayFinal)}\"]");
 }
-
-
-
-
-
-
-
