@@ -56,3 +56,4 @@ else
   string[] ArrayFinal = CreateNewArray (ArrayStart);
   Console.WriteLine ($"[\"{string.Join ("\", \"", ArrayStart)}\"] -> [\"{string.Join ("\", \"", ArrayFinal)}\"]");
 }
+// полное решение задачи
